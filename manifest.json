@@ -1,0 +1,12 @@
+{
+    "name": "JFIF to JPG Converter",
+    "version": "1.0",
+    "manifest_version": 3,
+    "description": "Replace .jfif with .jpg in downloads",
+    "background": {
+        "service_worker": "worker.js"
+    },
+    "permissions": [
+        "downloads"
+    ]
+}
